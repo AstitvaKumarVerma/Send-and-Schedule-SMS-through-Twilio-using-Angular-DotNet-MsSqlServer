@@ -1,0 +1,25 @@
+
+<button class="btn btn-primary" routerLink="schedule-sms" style="float: right; margin-right: 30px; margin-top: 30px;">Schedule SMS</button>
+<br><br><br>
+
+<div class="Container">
+    <h2 style="text-align: center;">Send SMS</h2>
+    <div class="Column">
+        <div>
+            <label for="toPhoneNumber">To Phone Number:</label><br>
+            <input type="text" class="form-control" id="toPhoneNumber" placeholder="Enter Phone Number" [(ngModel)]="toPhoneNumber">
+          </div>
+
+          <br>
+
+          <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" class="form-control" placeholder="Message" [(ngModel)]="message"></textarea>
+          </div>
+          <div>
+    </div>
+    <br>
+      <button class="btn btn-primary" (click)="sendSms()">Send SMS</button>
+    </div>
+  </div>
+  

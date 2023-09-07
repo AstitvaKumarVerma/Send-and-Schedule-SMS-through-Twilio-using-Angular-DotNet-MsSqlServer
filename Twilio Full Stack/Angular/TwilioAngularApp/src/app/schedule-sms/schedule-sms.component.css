@@ -1,0 +1,14 @@
+.Container{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    background-color: aqua;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.Container button{
+    margin-left: 46%;
+}
