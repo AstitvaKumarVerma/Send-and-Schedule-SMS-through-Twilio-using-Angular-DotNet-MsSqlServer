@@ -49,10 +49,6 @@ app.UseAuthorization();
 
 app.UseCors("corsapp");
 
-//app.UseHangfireDashboard(); // Add Hangfire Dashboard
-
-//app.UseHangfireServer(); // Add Hangfire Server
-
 app.MapControllers();
 
 app.Run();
